@@ -85,14 +85,6 @@ void loop() {
       digitalWrite(12, LOW);
       digitalWrite(13, LOW);
       delay(time);
-      digitalWrite(7, HIGH); // LETRA R
-      digitalWrite(11, HIGH);
-      digitalWrite(12, HIGH);
-      delay(time);
-      digitalWrite(7, LOW);
-      digitalWrite(11, LOW);
-      digitalWrite(12, LOW);
-      delay(time); 
       digitalWrite(7, HIGH);// LETRA T
       digitalWrite(8, HIGH);
       digitalWrite(9, HIGH);
@@ -101,6 +93,14 @@ void loop() {
       digitalWrite(8, LOW);
       digitalWrite(9, LOW);
       delay(time);
+      digitalWrite(7, HIGH); // LETRA R
+      digitalWrite(11, HIGH);
+      digitalWrite(12, HIGH);
+      delay(time);
+      digitalWrite(7, LOW);
+      digitalWrite(11, LOW);
+      digitalWrite(12, LOW);
+      delay(time); 
       digitalWrite(7, HIGH);//LETRA O
       digitalWrite(8, HIGH);
       digitalWrite(9, HIGH);
